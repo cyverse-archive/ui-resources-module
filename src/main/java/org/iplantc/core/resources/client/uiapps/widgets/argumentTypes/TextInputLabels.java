@@ -8,5 +8,7 @@ public interface TextInputLabels {
 
     String textInputWidgetEmptyText();
 
+    String textInputWidgetEmptyEditText();
+
     String textInputDefaultLabel();
 }

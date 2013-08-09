@@ -562,7 +562,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     ImageResource inputNumberDouble();
 
     @Override
-    @Source("integrator_group_list.png")
+    @Source("integrator_tree_list.png")
     ImageResource inputSelectGrouped();
 
     @Override

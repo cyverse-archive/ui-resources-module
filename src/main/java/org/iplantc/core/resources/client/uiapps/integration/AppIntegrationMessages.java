@@ -26,4 +26,14 @@ public interface AppIntegrationMessages extends Messages {
     SafeHtml orderLabel();
 
     String saveSuccessful();
+
+    String fileFolderCategoryTitle();
+
+    String listsCategoryTitle();
+
+    String textNumericalInputCategoryTitle();
+
+    String outputCategoryTitle();
+
+    String referenceGenomeCategoryTitle();
 }

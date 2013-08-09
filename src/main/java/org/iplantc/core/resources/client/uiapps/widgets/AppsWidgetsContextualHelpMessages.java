@@ -1,6 +1,7 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
 import org.iplantc.core.resources.client.uiapps.widgets.help.AppContextHelp;
+import org.iplantc.core.resources.client.uiapps.widgets.help.AppItemCategoryHelp;
 import org.iplantc.core.resources.client.uiapps.widgets.help.CheckboxInputHelp;
 import org.iplantc.core.resources.client.uiapps.widgets.help.DoubleInputHelp;
 import org.iplantc.core.resources.client.uiapps.widgets.help.DoubleSelectionHelp;
@@ -20,7 +21,7 @@ import org.iplantc.core.resources.client.uiapps.widgets.help.TreeSelectionHelp;
 import com.google.gwt.i18n.client.Messages;
 
 public interface AppsWidgetsContextualHelpMessages extends Messages, AppContextHelp, MultiFileInputHelp, FileInputHelp, FolderInputHelp, TextSelectionHelp, IntegerSelectionHelp, DoubleSelectionHelp,
-        TreeSelectionHelp, TextInputHelp, CheckboxInputHelp, EnvironmentVariableHelp, IntegerInputHelp, DoubleInputHelp, FileOutputHelp, FolderOutputHelp, MultiFileOutputHelp {
+        TreeSelectionHelp, TextInputHelp, CheckboxInputHelp, EnvironmentVariableHelp, IntegerInputHelp, DoubleInputHelp, FileOutputHelp, FolderOutputHelp, MultiFileOutputHelp, AppItemCategoryHelp {
 
     String excludeReference();
 
@@ -29,8 +30,6 @@ public interface AppsWidgetsContextualHelpMessages extends Messages, AppContextH
     String argumentOption();
 
     String argumentOrder();
-
-    String fileInfoType();
 
     String doNotPass();
 
