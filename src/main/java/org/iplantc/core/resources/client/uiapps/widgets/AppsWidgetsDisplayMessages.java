@@ -39,4 +39,6 @@ public interface AppsWidgetsDisplayMessages extends Messages {
     String forceSingleSelectToolTip();
 
     String emptyArgumentGroupBgText();
+
+    String launchAnalysisSuccess(String analysisName);
 }

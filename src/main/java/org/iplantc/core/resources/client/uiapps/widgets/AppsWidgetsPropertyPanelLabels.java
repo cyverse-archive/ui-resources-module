@@ -42,7 +42,7 @@ public interface AppsWidgetsPropertyPanelLabels extends Messages, ArgumentGroupL
 
     String argumentOptionEmptyText();
 
-    String detailsPanelHeader();
+    String detailsPanelHeader(String name);
 
     String doNotPass();
 
@@ -51,6 +51,8 @@ public interface AppsWidgetsPropertyPanelLabels extends Messages, ArgumentGroupL
     SafeHtml isRequired();
 
     SafeHtml isVisible();
+
+    SafeHtml doNotDisplay();
 
     String toolTipEmptyText();
 
