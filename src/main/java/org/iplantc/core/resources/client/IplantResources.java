@@ -681,4 +681,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     
     @Source("DataCollapse.css")
     DataCollapseStyle getDataCollapseStyle();
+    
+    @Source("IplantContextualHelpAccess.css")
+    IplantContextualHelpAccessStyle getContxtualHelpStyle();
 }
