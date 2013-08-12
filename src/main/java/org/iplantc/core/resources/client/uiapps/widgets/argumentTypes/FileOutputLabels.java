@@ -7,6 +7,12 @@ public interface FileOutputLabels {
 
     String fileOutputSourceLabel();
 
+    String fileOutputSrcFileLabel();
+
+    String fileOutputSrcStdoutLabel();
+
+    String fileOutputSrcStderrLabel();
+
     String fileOutputDefaultLabel();
 
 }
