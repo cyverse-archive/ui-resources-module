@@ -562,7 +562,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     ImageResource inputNumberDouble();
 
     @Override
-    @Source("integrator_group_list.png")
+    @Source("integrator_tree_list.png")
     ImageResource inputSelectGrouped();
 
     @Override
@@ -665,12 +665,6 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("user_comment.png")
     ImageResource feedback();
     
-    @Source("cursor_hand.png")
-    ImageResource cursorHand();
-
-    @Source("cursor_drag_hand.png")
-    DataResource cursorDragHand();
-
     /**
      * Accesses the style for the Announcer widget
      * 
@@ -687,4 +681,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     
     @Source("DataCollapse.css")
     DataCollapseStyle getDataCollapseStyle();
+    
+    @Source("IplantContextualHelpAccess.css")
+    IplantContextualHelpAccessStyle getContxtualHelpStyle();
 }

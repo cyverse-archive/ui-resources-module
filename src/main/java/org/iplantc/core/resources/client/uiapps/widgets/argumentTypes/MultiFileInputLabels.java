@@ -9,4 +9,6 @@ public interface MultiFileInputLabels {
 
     String multiFileWidgetEmptyText();
 
+    String multiFileWidgetEmptyEditText();
+
 }

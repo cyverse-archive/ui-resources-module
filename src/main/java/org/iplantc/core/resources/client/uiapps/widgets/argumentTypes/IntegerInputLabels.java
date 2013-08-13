@@ -5,5 +5,7 @@ public interface IntegerInputLabels {
 
     String integerInputWidgetEmptyText();
 
+    String integerInputWidgetEmptyEditText();
+
     String integerInputDefaultLabel();
 }

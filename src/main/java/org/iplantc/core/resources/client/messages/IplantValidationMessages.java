@@ -8,6 +8,10 @@ import com.google.gwt.i18n.client.Messages;
  * @author lenards
  * 
  */
+/**
+ * @author jstroot
+ * 
+ */
 public interface IplantValidationMessages extends Messages {
 
     /**
@@ -271,4 +275,22 @@ public interface IplantValidationMessages extends Messages {
      * @return a parameterized string representing the message shown when the field is not valid
      */
     public String invalidEmail();
+
+    /**
+     * Translated "Invalid characters: ".
+     * 
+     * @param invalidCharSet
+     * @return translated "Invalid characters: "
+     */
+    @DefaultMessage("Invalid characters: ")
+    @Key("invalidChars")
+    String invalidChars(String invalidCharSet);
+
+    /**
+     * @param unsupportedChars
+     * @return
+     */
+    @DefaultMessage("The following characters are not supported: ")
+    @Key("unsupportedChars")
+    String unsupportedChars(String unsupportedChars);
 }

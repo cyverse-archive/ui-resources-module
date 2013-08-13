@@ -1098,4 +1098,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     @DefaultMessage("A workflow must have a name and description, 2 or more apps, and at least one input of each app must come from an output of a previous app.")
     @Key("workflowValidationError")
     String workflowValidationError();
+
+    /**
+     * Translated "This field is required.".
+     * 
+     * @return translated "This field is required."
+     */
+    @DefaultMessage("This field is required")
+    @Key("requiredField")
+    String requiredField();
 }

@@ -7,6 +7,8 @@ public interface EnvironmentVariableLabels {
 
     String envVarWidgetEmptyText();
 
+    String envVarWidgetEmptyEditText();
+
     String envVarDefaultLabel();
 
 }

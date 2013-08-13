@@ -5,5 +5,7 @@ public interface DoubleInputLabels {
 
     String doubleInputWidgetEmptyText();
 
+    String doubleInputWidgetEmptyEditText();
+
     String doubleInputDefaultLabel();
 }
