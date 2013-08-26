@@ -2053,6 +2053,16 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Metadata")
     @Key("metadata")
     String metadata();
+    
+    /**
+     * Translated "metadataSuccess".
+     *
+     * @return translated "metadataSuccess"
+     */
+    @DefaultMessage("Metadata updated successfully.")
+    @Key("metadataSuccess")
+    String metadataSuccess();
+    
 
     /**
      * Translated "Minimize".
@@ -4361,6 +4371,5 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Pending verification that {0} exists.")
     @Key("diskResourceExistCheckPending")
     String diskResourceExistCheckPending(String path);
-
 
 }
