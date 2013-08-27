@@ -1142,6 +1142,16 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Edit")
     @Key("edit")
     String edit();
+    
+    /**
+     * Translated "EditApp".
+     *
+     * @return translated "EditApp"
+     */
+    @DefaultMessage("Modify")
+    @Key("editApp")
+    String editApp();
+    
 
     /**
      * Translated "Email".
