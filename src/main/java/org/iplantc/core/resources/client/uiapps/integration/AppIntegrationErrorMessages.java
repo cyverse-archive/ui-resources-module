@@ -6,4 +6,6 @@ public interface AppIntegrationErrorMessages {
 
     String unableToSave();
 
+    String appContainsErrorsPromptToContinue();
+
 }

@@ -294,6 +294,10 @@ public interface IplantValidationMessages extends Messages {
     @Key("unsupportedChars")
     String unsupportedChars(String unsupportedChars);
 
+    String invalidUrl();
+
+    String invalidImportUrl();
+
     /**
      * Message provided when a user enters a value that is not a double precision value.
      * 
