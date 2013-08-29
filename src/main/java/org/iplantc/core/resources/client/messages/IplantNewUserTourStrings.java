@@ -68,4 +68,8 @@ public interface IplantNewUserTourStrings extends com.google.gwt.i18n.client.Mes
   @DefaultMessage("<p>Welcome to the Discovery Environment!<p><p>Would you like to take a tour?</p>")
   @Key("introWelcome")
   String introWelcome();
+  
+  @DefaultMessage("<p>The Ask icon opens Ask iPlant, the iPlant community's question and answer forum.</p><br/><p>Both iPlant staff and community members alike come together and help each other get the answers they need.</p><br/><p>Look here first for any questions you may have, or ask a new question.</p>\n")
+  @Key("introAsk")
+  String introAsk();
 }
