@@ -293,4 +293,17 @@ public interface IplantValidationMessages extends Messages {
     @DefaultMessage("The following characters are not supported: ")
     @Key("unsupportedChars")
     String unsupportedChars(String unsupportedChars);
+
+    String invalidUrl();
+
+    String invalidImportUrl();
+
+    /**
+     * Message provided when a user enters a value that is not a double precision value.
+     * 
+     * @see org.iplantc.core.uiapps.widgets.client.view.editors.validation.EnvironmentVariableNameValidator
+     * 
+     * @return translated validation error message.
+     */
+    String environmentVariableNameValidationMsg();
 }

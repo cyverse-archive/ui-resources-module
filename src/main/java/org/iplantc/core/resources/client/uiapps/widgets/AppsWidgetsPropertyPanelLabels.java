@@ -44,6 +44,8 @@ public interface AppsWidgetsPropertyPanelLabels extends Messages, ArgumentGroupL
 
     String detailsPanelHeader(String name);
 
+    String detailsPanelDefaultText();
+
     String doNotPass();
 
     String excludeWhenEmpty();

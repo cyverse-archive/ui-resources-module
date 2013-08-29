@@ -5,6 +5,10 @@ public interface EnvironmentVariableLabels {
 
     String envVarLabel();
 
+    String envVarNameLabel();
+
+    String envVarNameEmptyText();
+
     String envVarWidgetEmptyText();
 
     String envVarWidgetEmptyEditText();
