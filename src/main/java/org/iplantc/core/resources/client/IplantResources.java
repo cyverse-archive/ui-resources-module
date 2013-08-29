@@ -16,7 +16,7 @@ import com.google.gwt.resources.client.ImageResource;
  * 
  */
 public interface IplantResources extends ClientBundle, AppResources, DiskResourceResources,
-        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources, DataCollapseResources {
+        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources, DataCollapseResources, DEFeedbackResources {
 
     public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
@@ -98,7 +98,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
      * 
      * @return image.
      */
-    @Source("analysis_gear.gif")
+    @Source("de-menu.png")
     ImageResource userMenu();
 
     /**
@@ -662,8 +662,11 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("DataLinkPanelCell.css")
     DataLinkPanelCellStyle getDataLinkCss();
 
-    @Source("user_comment.png")
+    @Source("de_feedback.png")
     ImageResource feedback();
+    
+    @Source("forums.png")
+    ImageResource forums();
     
     /**
      * Accesses the style for the Announcer widget
@@ -681,6 +684,9 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     
     @Source("DataCollapse.css")
     DataCollapseStyle getDataCollapseStyle();
+    
+    @Source("Feedback.css")
+    DEFeedbackStyle getFeedbackStyle();
     
     @Source("IplantContextualHelpAccess.css")
     IplantContextualHelpAccessStyle getContxtualHelpStyle();
