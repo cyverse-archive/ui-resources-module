@@ -892,6 +892,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     String restoreDefaultMsg();
 
     /**
+     * Translated "Failed to retrieve app group contents.".
+     * 
+     * @return translated "Failed to retrieve app group contents."
+     */
+    @DefaultMessage("Failed to retrieve app group contents.")
+    @Key("retrieveAppListingFailed")
+    String retrieveAppListingFailed();
+
+    /**
      * Translated "Failed to retrieve folder contents.".
      * 
      * @return translated "Failed to retrieve folder contents."
