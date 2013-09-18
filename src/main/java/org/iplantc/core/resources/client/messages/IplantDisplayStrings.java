@@ -3845,6 +3845,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Submit your app for public use.")
     @Key("submitForPublicUse")
     String submitForPublicUse();
+    
+    /**
+     * Translated "Intro text for Submit your app for public use form.".
+     *
+     * @return translated "Intro text for Submit your app for public use form."
+     */
+    @Key("submitForPublicUseIntro")
+    String submitForPublicUseIntro();
 
     /**
      * Translated "Submitting your request, please wait...".
