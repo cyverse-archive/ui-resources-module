@@ -4418,4 +4418,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("systemMessages")
     String systemMessages();
 
+    /**
+     * Translated "Add New Reference Genome"
+     * 
+     * @return translated "Add New Reference Genome"
+     */
+    @DefaultMessage("Add New Reference Genome")
+    @Key("newReferenceGenome")
+    String newReferenceGenome();
+
 }
