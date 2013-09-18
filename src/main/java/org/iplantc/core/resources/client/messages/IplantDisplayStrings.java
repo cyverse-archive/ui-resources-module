@@ -3435,13 +3435,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String search();
 
     /**
-     * Translated "Search results for \"{0}\"".
-     *
-     * @return translated "Search results for \"{0}\""
+     * Translated "Search results: {1} found for \"{0}\"".
+     * 
+     * @return translated "Search results: {1} found for \"{0}\""
      */
-    @DefaultMessage("Search results for \"{0}\"")
+    @DefaultMessage("Search results: {1} found for \"{0}\"")
     @Key("searchAppResultsHeader")
-    String searchAppResultsHeader(String searchText);
+    String searchAppResultsHeader(String searchText, int total);
 
     /**
      * Translated "Search Apps by Name or Description".
@@ -3845,6 +3845,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Submit your app for public use.")
     @Key("submitForPublicUse")
     String submitForPublicUse();
+    
+    /**
+     * Translated "Intro text for Submit your app for public use form.".
+     *
+     * @return translated "Intro text for Submit your app for public use form."
+     */
+    @Key("submitForPublicUseIntro")
+    String submitForPublicUseIntro();
 
     /**
      * Translated "Submitting your request, please wait...".
@@ -3960,6 +3968,16 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Tool Request Status")
     @Key("toolRequestStatus")
     String toolRequestStatus();
+    
+    /**
+     * Translated "tool Request Form Intro".
+     *
+     * @return translated "Tool Request form intro"
+     */
+    @DefaultMessage("tool Request Form Intro")
+    @Key("toolRequestFormIntro")
+    String toolRequestFormIntro();
+    
 
     /**
      * Translated "Tool Information".
