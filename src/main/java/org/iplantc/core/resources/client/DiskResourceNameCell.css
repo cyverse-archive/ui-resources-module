@@ -20,6 +20,10 @@
 	color: black;
 }
 
+.nameStyle:hover {
+	text-decoration: underline;
+}
+
 .nameStyleNoPointer {
 	text-decoration: none;
 	font-size: 12px;

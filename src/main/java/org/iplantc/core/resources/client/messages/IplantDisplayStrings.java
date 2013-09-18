@@ -4424,7 +4424,19 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * @return translated "Add New Reference Genome"
      */
     @DefaultMessage("Add New Reference Genome")
-    @Key("newReferenceGenome")
-    String newReferenceGenome();
+    @Key("addReferenceGenome")
+    String addReferenceGenome();
+
+    /**
+     * <pre>
+     * <span style='color: red;'>*&nbsp</span>{0}"
+     * </pre>
+     * 
+     * @return translated "<span style='color: red;'>*&nbsp</span>{0}"
+     */
+    @DefaultMessage("<span style='color: red;'>*&nbsp</span>{0}")
+    @Key("requiredFieldLabel")
+    SafeHtml requiredFieldLabel(String fieldLabel);
+
 
 }
