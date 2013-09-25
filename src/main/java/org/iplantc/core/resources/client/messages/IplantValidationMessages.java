@@ -195,14 +195,18 @@ public interface IplantValidationMessages extends Messages {
      * 
      * @return a string representing the localized text.
      */
-    String analysisNameValidationMsg();
+    String analysisNameValidationMsg(String unsupportedchars);
+
 
     /**
-     * Localized text for display as validation message when an analysis Name contains invalid chars.
+     * Localized text for display as validation message.
+     * 
+     * This message is displayed with an disk resource Name is not valid.
      * 
      * @return a string representing the localized text.
      */
-    String analysisNameInvalidChars(String invalidChars);
+    String drNameValidationMsg();
+
 
     /**
      * Validation message for numeric field
