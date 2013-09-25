@@ -991,6 +991,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String deleteMsg();
 
     /**
+     * Translated "Selected file(s) / folder(s) deleted successfully."
+     *
+     * @return translated "Selected file(s) / folder(s) deleted successfully."
+     */
+    @DefaultMessage("Selected file(s) / folder(s) deleted successfully.")
+    @Key("deleteTrash")
+    String deleteTrash();
+    
+    /**
      * Translated "Delete Selected".
      *
      * @return translated "Delete Selected"
