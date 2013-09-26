@@ -991,6 +991,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String deleteMsg();
 
     /**
+     * Translated "Selected file(s) / folder(s) deleted successfully."
+     *
+     * @return translated "Selected file(s) / folder(s) deleted successfully."
+     */
+    @DefaultMessage("Selected file(s) / folder(s) deleted successfully.")
+    @Key("deleteTrash")
+    String deleteTrash();
+    
+    /**
      * Translated "Delete Selected".
      *
      * @return translated "Delete Selected"
@@ -2294,6 +2303,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String newToolReq();
 
     /**
+     * Translated "Tool Requests".
+     * 
+     * @return translated "Tool Requests"
+     */
+    @DefaultMessage("Tool Requests")
+    @Key("toolRequests")
+    String toolRequests();
+
+    /**
      * Translated
      * "An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org."
      * .
@@ -2492,7 +2510,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      */
     @DefaultMessage("The iPlant Collaborative is funded by a grant from the National Science Foundation Plant Science Cyberinfrastructure Collaborative (#DBI-0735191).")
     @Key("nsfProjectText")
-    String nsfProjectText();
+    SafeHtml nsfProjectText();
 
     /**
      * Translated "Open Analyses window".
@@ -2774,7 +2792,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      */
     @DefaultMessage("&copy;2012 iPlant Collaborative")
     @Key("projectCopyrightStatement")
-    String projectCopyrightStatement();
+    SafeHtml projectCopyrightStatement();
 
     /**
      * Translated "Boolean".
@@ -4399,5 +4417,23 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Pending verification that {0} exists.")
     @Key("diskResourceExistCheckPending")
     String diskResourceExistCheckPending(String path);
+
+    /**
+     * Translated "System Messages"
+     * 
+     * @return translated "System Messages"
+     */
+    @DefaultMessage("System Messages")
+    @Key("systemMessages")
+    String systemMessages();
+
+    /**
+     * Translated "Add New Reference Genome"
+     * 
+     * @return translated "Add New Reference Genome"
+     */
+    @DefaultMessage("Add New Reference Genome")
+    @Key("addReferenceGenome")
+    String addReferenceGenome();
 
 }
