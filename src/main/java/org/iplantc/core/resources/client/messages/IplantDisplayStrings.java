@@ -1,5 +1,7 @@
 package org.iplantc.core.resources.client.messages;
 
+import java.util.List;
+
 import com.google.gwt.safehtml.shared.SafeHtml;
 
 /**
@@ -207,6 +209,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Your analysis has been submitted. You will be notified about its progress through notifications.")
     @Key("analysisSubmittedMsg")
     String analysisSubmittedMsg();
+
+    /**
+     * A message indicating that an app was added to one or more categories.
+     * 
+     * @param app The name of the app that was categorized.
+     * @param categories The list of category names.
+     */
+    @DefaultMessage("Successfully added {0} to the following Categories: {1,list}.")
+    @AlternateMessage({"=1", "Successfully added {0} to the following Category: {1,list}."})
+    @Key("appCategorizeSuccess")
+    String appCategorizeSuccess(String app, @PluralCount List<String> categories);
 
     /**
      * Translated "Rating Comment".
