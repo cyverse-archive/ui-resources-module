@@ -493,6 +493,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String cantLoadUserInfo();
 
     /**
+     * Translated "Categorize".
+     * 
+     * @return translated "Categorize"
+     */
+    @DefaultMessage("Categorize")
+    @Key("categorize")
+    String categorize();
+
+    /**
      * Translated "Categories".
      *
      * @return translated "Categories"
@@ -3593,6 +3602,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Select & Order Apps")
     @Key("selectAndOrderApps")
     String selectAndOrderApps();
+
+    /**
+     * Translated "Select Categories for {0}.".
+     * 
+     * @return translated "Select Categories for {0}."
+     */
+    @DefaultMessage("Select Categories for {0}.")
+    @Key("selectCategories")
+    String selectCategories(String appName);
 
     /**
      * Translated "Select Collaborator(s)".
