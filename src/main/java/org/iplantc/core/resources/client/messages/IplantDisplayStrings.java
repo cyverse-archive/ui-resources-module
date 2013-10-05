@@ -538,6 +538,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String chooseFromCollab();
 
     /**
+     * Translated "Clear Selection".
+     * 
+     * @return translated "Clear Selection"
+     */
+    @DefaultMessage("Clear Selection")
+    @Key("clearSelection")
+    String clearSelection();
+
+    /**
      * Translated "Click to view app info.".
      *
      * @return translated "Click to view app info."
