@@ -812,6 +812,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     String newToolRequestError();
 
     /**
+     * Translated "No categories selected.".
+     * 
+     * @return translated "No categories selected."
+     */
+    @DefaultMessage("No categories selected.")
+    @Key("noCategoriesSelected")
+    String noCategoriesSelected();
+
+    /**
      * Translated "No folder selected.".
      * 
      * @return translated "No folder selected."

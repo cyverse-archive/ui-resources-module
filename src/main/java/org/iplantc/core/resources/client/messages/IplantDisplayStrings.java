@@ -1,5 +1,7 @@
 package org.iplantc.core.resources.client.messages;
 
+import java.util.List;
+
 import com.google.gwt.safehtml.shared.SafeHtml;
 
 /**
@@ -207,6 +209,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Your analysis has been submitted. You will be notified about its progress through notifications.")
     @Key("analysisSubmittedMsg")
     String analysisSubmittedMsg();
+
+    /**
+     * A message indicating that an app was added to one or more categories.
+     * 
+     * @param app The name of the app that was categorized.
+     * @param categories The list of category names.
+     */
+    @DefaultMessage("Successfully added {0} to the following Categories: {1,list}.")
+    @AlternateMessage({"=1", "Successfully added {0} to the following Category: {1,list}."})
+    @Key("appCategorizeSuccess")
+    String appCategorizeSuccess(String app, @PluralCount List<String> categories);
 
     /**
      * Translated "Rating Comment".
@@ -480,6 +493,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String cantLoadUserInfo();
 
     /**
+     * Translated "Categorize".
+     * 
+     * @return translated "Categorize"
+     */
+    @DefaultMessage("Categorize")
+    @Key("categorize")
+    String categorize();
+
+    /**
      * Translated "Categories".
      *
      * @return translated "Categories"
@@ -514,6 +536,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Choose from collaborators")
     @Key("chooseFromCollab")
     String chooseFromCollab();
+
+    /**
+     * Translated "Clear Selection".
+     * 
+     * @return translated "Clear Selection"
+     */
+    @DefaultMessage("Clear Selection")
+    @Key("clearSelection")
+    String clearSelection();
 
     /**
      * Translated "Click to view app info.".
@@ -3580,6 +3611,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Select & Order Apps")
     @Key("selectAndOrderApps")
     String selectAndOrderApps();
+
+    /**
+     * Translated "Select Categories for {0}.".
+     * 
+     * @return translated "Select Categories for {0}."
+     */
+    @DefaultMessage("Select Categories for {0}.")
+    @Key("selectCategories")
+    String selectCategories(String appName);
 
     /**
      * Translated "Select Collaborator(s)".
