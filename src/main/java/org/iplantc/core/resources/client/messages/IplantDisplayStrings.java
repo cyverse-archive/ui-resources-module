@@ -1875,6 +1875,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Links")
     @Key("links")
     String links();
+    
+    /**
+     * Translated "linkToFolder"
+     * 
+     * @return
+     */
+    @DefaultMessage("Link to folder")
+    String linkToFolder();
 
     /**
      * Translated "Loading...".
@@ -4475,5 +4483,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Add New Reference Genome")
     @Key("addReferenceGenome")
     String addReferenceGenome();
+
+   
 
 }
