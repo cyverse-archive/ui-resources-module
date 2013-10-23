@@ -11,5 +11,7 @@ public interface DiskResourceNameCellStyle extends CssResource {
     String nameStyle();
 
     String nameStyleNoPointer();
+    
+    String nameDisabledStyle();
 
 }

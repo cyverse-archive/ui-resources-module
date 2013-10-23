@@ -20,6 +20,12 @@
 	color: black;
 }
 
+.nameDisabledStyle {
+	color:red;	
+	font-style: italic;
+	text-decoration: none;
+	cursor: default;
+}
 .nameStyle:hover {
 	text-decoration: underline;
 }
