@@ -1875,6 +1875,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Links")
     @Key("links")
     String links();
+    
+    /**
+     * Translated "linkToFolder"
+     * 
+     * @return
+     */
+    @DefaultMessage("Link to folder")
+    String linkToFolder();
 
     /**
      * Translated "Loading...".
@@ -4457,6 +4465,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Pending verification that {0} exists.")
     @Key("diskResourceExistCheckPending")
     String diskResourceExistCheckPending(String path);
+    
+    /**
+     * Translated "Disk resource not available."
+     * 
+     * @return
+     */
+    String diskResourceNotAvailable();
+    
 
     /**
      * Translated "System Messages"
@@ -4475,5 +4491,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Add New Reference Genome")
     @Key("addReferenceGenome")
     String addReferenceGenome();
+
+   
 
 }
