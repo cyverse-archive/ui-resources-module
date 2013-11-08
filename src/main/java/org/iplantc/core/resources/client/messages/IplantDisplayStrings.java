@@ -1385,6 +1385,19 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("{0} uploaded successfully.")
     @Key("fileUploadSuccess")
     String fileUploadSuccess(String arg0);
+    
+    /**
+     * 
+     * Translate fileViewerHeaderRow
+     * @return
+     */
+    String fileViewerHeaderRow ();
+    
+    /**
+     * Translate fileViewerSkipLines
+     * @return
+     */
+    String fileViewerSkipLines();
 
     /**
      * Translated "File(s)".
