@@ -1391,7 +1391,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translate fileViewerHeaderRow
      * @return
      */
-    String fileViewerHeaderRow ();
+    String fileViewerHeaderRow();
     
     /**
      * Translate fileViewerSkipLines
