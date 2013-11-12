@@ -1,7 +1,14 @@
 package org.iplantc.core.resources.client.uiapps.widgets.argumentTypes;
 
+import com.google.gwt.i18n.client.LocalizableResource.Key;
+
 public interface FileOutputLabels {
+    String fileOutputDefaultLabel();
+
     String fileOutputEmptyText();
+
+    @Key("fileInputFileInfoType")
+    String fileOutputFileInfoTypeLabel();
 
     String fileOutputLabel();
 
@@ -9,10 +16,8 @@ public interface FileOutputLabels {
 
     String fileOutputSrcFileLabel();
 
-    String fileOutputSrcStdoutLabel();
-
     String fileOutputSrcStderrLabel();
 
-    String fileOutputDefaultLabel();
+    String fileOutputSrcStdoutLabel();
 
 }

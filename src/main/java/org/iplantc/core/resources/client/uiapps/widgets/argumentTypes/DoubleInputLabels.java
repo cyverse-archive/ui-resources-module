@@ -1,11 +1,16 @@
 package org.iplantc.core.resources.client.uiapps.widgets.argumentTypes;
 
-public interface DoubleInputLabels {
-    String doubleInputLabel();
+import com.google.gwt.i18n.client.LocalizableResource.Key;
 
-    String doubleInputWidgetEmptyText();
+public interface DoubleInputLabels {
+    String doubleInputDefaultLabel();
+
+    @Key("envVarEmptyText")
+    String doubleInputEmptyText();
+
+    String doubleInputLabel();
 
     String doubleInputWidgetEmptyEditText();
 
-    String doubleInputDefaultLabel();
+    String doubleInputWidgetEmptyText();
 }

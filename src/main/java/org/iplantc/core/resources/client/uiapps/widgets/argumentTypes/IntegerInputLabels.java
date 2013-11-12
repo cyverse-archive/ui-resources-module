@@ -1,11 +1,16 @@
 package org.iplantc.core.resources.client.uiapps.widgets.argumentTypes;
 
-public interface IntegerInputLabels {
-    String integerInputLabel();
+import com.google.gwt.i18n.client.LocalizableResource.Key;
 
-    String integerInputWidgetEmptyText();
+public interface IntegerInputLabels {
+    String integerInputDefaultLabel();
+
+    @Key("envVarEmptyText")
+    String integerInputEmptyText();
+
+    String integerInputLabel();
 
     String integerInputWidgetEmptyEditText();
 
-    String integerInputDefaultLabel();
+    String integerInputWidgetEmptyText();
 }
