@@ -1,8 +1,8 @@
 package org.iplantc.core.resources.client.messages;
 
-import java.util.List;
-
 import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationErrorMessages;
+
+import java.util.List;
 
 /**
  * Interface to represent the messages contained in resource bundle:
@@ -944,6 +944,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     @DefaultMessage("Unable to retrieve user info.")
     @Key("retrieveUserInfoFailed")
     String retrieveUserInfoFailed();
+
+    /**
+     * Translated "Failed to retrieve saved filters.".
+     * 
+     * @return translated "Failed to retrieve saved filters."
+     */
+    @DefaultMessage("Failed to retrieve saved filters.")
+    @Key("retrieveSavedQueryTemplatesFailed")
+    String retrieveSavedQueryTemplatesFailed();
 
     /**
      * Translated "Unable to save this parameters as a file. Please try again.".
