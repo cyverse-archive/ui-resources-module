@@ -104,6 +104,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     String confluenceError();
 
     /**
+     * 
+     * 
+     * @return translated String
+     */
+    @DefaultMessage("Unable to load genome in CoGe. Please try again later.")
+    String cogeError();
+    
+    
+    /**
      * Error msg shown when an attempt to create some data links goes awry!!
      * 
      * @return
