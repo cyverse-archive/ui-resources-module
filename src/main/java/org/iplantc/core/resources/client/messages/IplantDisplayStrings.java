@@ -601,6 +601,26 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String cmdLineRun();
 
     /**
+     * 
+     * @return
+     */
+    @DefaultMessage("CoGe")
+    String coge();
+    
+    /**
+     * 
+     * @return
+     */
+    @DefaultMessage("Would you like to load this genome in CoGe ?")
+    String cogePrompt();
+    
+    /**
+     * 
+     * @return
+     */
+    String cogeResponse(String url);
+    
+    /**
      * Translated "Search for users".
      *
      * @return translated "Search for users"
@@ -922,6 +942,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * @return
      */
     String dataLinkWarning();
+    
+    /**
+     * 
+     * @return
+     */
+    @DefaultMessage("Visualization")
+    String visualization();
 
     /**
      * Translated "Date".
