@@ -26,3 +26,6 @@ src/main/webapp/META-INF/context.xml
 
 *.iml
 *.eml
+
+# Ignore gradle build directory
+build/
