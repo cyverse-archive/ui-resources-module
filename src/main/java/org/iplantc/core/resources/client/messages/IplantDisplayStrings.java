@@ -97,6 +97,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String adminInfo();
 
     /**
+     * Translated "Advanced Sharing".
+     * 
+     * @return translated "Advanced Sharing"
+     */
+    @DefaultMessage("Advanced Sharing")
+    @Key("advancedSharing")
+    String advancedSharing();
+
+    /**
      * Translated "Yes".
      *
      * @return translated "Yes"
@@ -782,6 +791,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Copy")
     @Key("copy")
     String copy();
+
+    /**
+     * Translated "Copy Link".
+     * 
+     * @return translated "Copy Link"
+     */
+    @DefaultMessage("Copy Link")
+    @Key("copyLink")
+    String copyLink();
 
     /**
      * Translated "Copy / Paste".
