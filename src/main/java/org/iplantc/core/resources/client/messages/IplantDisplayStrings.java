@@ -1610,6 +1610,8 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("You must close this window, after the current download is complete, before beginning a new download.")
     @Key("idropLiteDownloadNotice")
     String idropLiteDownloadNotice();
+    
+    String idropJavaInfo(String helpUrl);
 
     /**
      * Translated "Image".
