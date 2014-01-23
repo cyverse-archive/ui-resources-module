@@ -1,8 +1,8 @@
 package org.iplantc.core.resources.client.messages;
 
-import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationErrorMessages;
-
 import java.util.List;
+
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationErrorMessages;
 
 /**
  * Interface to represent the messages contained in resource bundle:
@@ -771,6 +771,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     @DefaultMessage("The system messages could not be marked as seen.")
     @Key("markMessageSeenFailed")
     String markMessageSeenFailed();
+
+    /**
+     * Translated "Please fix all errors before saving.".
+     * 
+     * @return translated "Please fix all errors before saving."
+     */
+    @DefaultMessage("Please fix all errors before saving.")
+    @Key("metadataFormInvalid")
+    String metadataFormInvalid();
 
     /**
      * Translated "Error updating metadata.".
