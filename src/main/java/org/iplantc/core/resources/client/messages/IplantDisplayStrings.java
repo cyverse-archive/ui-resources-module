@@ -3605,13 +3605,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String search();
 
     /**
-     * Translated "Search results: {1} found for \"{0}\"".
+     * Translated "Search results ({2} seconds): {1} found for {0}".
      * 
-     * @return translated "Search results: {1} found for \"{0}\""
+     * @return translated "Search results ({2} seconds): {1} found for {0}"
      */
-    @DefaultMessage("Search results: {1} found for \"{0}\"")
+    @DefaultMessage("Search results ({2} seconds): {1} found for {0}")
     @Key("searchAppResultsHeader")
-    String searchAppResultsHeader(String searchText, int total);
+    String searchAppResultsHeader(String searchText, int total, double seconds);
 
     /**
      * Translated "Search Apps by Name or Description".
