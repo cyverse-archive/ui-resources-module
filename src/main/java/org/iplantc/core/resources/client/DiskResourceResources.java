@@ -48,7 +48,12 @@ public interface DiskResourceResources {
      */
     ImageResource fileDelete();
 
-
+    /**
+     * Image resource
+     * 
+     * @return image.
+     */
+    ImageResource folderView();
 
     /**
      * Image resource.

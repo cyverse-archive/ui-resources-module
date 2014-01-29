@@ -97,6 +97,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String adminInfo();
 
     /**
+     * Translated "Advanced Sharing".
+     * 
+     * @return translated "Advanced Sharing"
+     */
+    @DefaultMessage("Advanced Sharing")
+    @Key("advancedSharing")
+    String advancedSharing();
+
+    /**
      * Translated "Yes".
      *
      * @return translated "Yes"
@@ -385,8 +394,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String attachSampleOutput();
 
     /**
+     * Translated "Attribute".
+     * 
+     * @return translated "Attribute"
+     */
+    @DefaultMessage("Attribute")
+    @Key("attribute")
+    String attribute();
+
+    /**
      * Translated "Attribution".
-     *
+     * 
      * @return translated "Attribution"
      */
     @DefaultMessage("Attribution")
@@ -782,6 +800,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Copy")
     @Key("copy")
     String copy();
+
+    /**
+     * Translated "Copy Link".
+     * 
+     * @return translated "Copy Link"
+     */
+    @DefaultMessage("Copy Link")
+    @Key("copyLink")
+    String copyLink();
 
     /**
      * Translated "Copy / Paste".
@@ -1592,6 +1619,8 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("You must close this window, after the current download is complete, before beginning a new download.")
     @Key("idropLiteDownloadNotice")
     String idropLiteDownloadNotice();
+    
+    String idropJavaInfo(String helpUrl);
 
     /**
      * Translated "Image".
@@ -2160,11 +2189,37 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Metadata updated successfully.")
     @Key("metadataSuccess")
     String metadataSuccess();
-    
+
+    /**
+     * Translated "Are you sure you want to remove this template?".
+     * 
+     * @return translated "Are you sure you want to remove this template?"
+     */
+    @DefaultMessage("Are you sure you want to remove this template?")
+    @Key("metadataTemplateConfirmRemove")
+    String metadataTemplateConfirmRemove();
+
+    /**
+     * Translated "Remove Template".
+     * 
+     * @return translated "Remove Template"
+     */
+    @DefaultMessage("Remove Template")
+    @Key("metadataTemplateRemove")
+    String metadataTemplateRemove();
+
+    /**
+     * Translated "Select a template...".
+     * 
+     * @return translated "Select a template..."
+     */
+    @DefaultMessage("Select a template...")
+    @Key("metadataTemplateSelect")
+    String metadataTemplateSelect();
 
     /**
      * Translated "Minimize".
-     *
+     * 
      * @return translated "Minimize"
      */
     @DefaultMessage("Minimize")
@@ -2325,8 +2380,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String newApp();
 
     /**
+     * Translated "New Attribute".
+     * 
+     * @return translated "New Attribute"
+     */
+    @DefaultMessage("New Attribute")
+    @Key("newAttribute")
+    String newAttribute();
+
+    /**
      * Translated "Create Barcode File".
-     *
+     * 
      * @return translated "Create Barcode File"
      */
     @DefaultMessage("Create Barcode File")
@@ -2373,8 +2437,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String newNotificationsAlert();
 
     /**
+     * Translated "New Value".
+     * 
+     * @return translated "New Value"
+     */
+    @DefaultMessage("New Value")
+    @Key("newValue")
+    String newValue();
+
+    /**
      * Translated "New Tool Request".
-     *
+     * 
      * @return translated "New Tool Request"
      */
     @DefaultMessage("New Tool Request")
@@ -3053,7 +3126,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      *
      * @return translated "Please complete required fields to submit."
      */
-    @DefaultMessage("Please complete required fields to submit.")
+    @DefaultMessage("Please complete all required fields.")
     @Key("publicSubmitTip")
     String publicSubmitTip();
 
@@ -3532,11 +3605,11 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String search();
 
     /**
-     * Translated "Search results: {1} found for \"{0}\"".
+     * Translated "Search results: {1} found for {0}".
      * 
-     * @return translated "Search results: {1} found for \"{0}\""
+     * @return translated "Search results: {1} found for {0}"
      */
-    @DefaultMessage("Search results: {1} found for \"{0}\"")
+    @DefaultMessage("Search results: {1} found for {0}")
     @Key("searchAppResultsHeader")
     String searchAppResultsHeader(String searchText, int total);
 
@@ -3554,8 +3627,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String searchData();
 
     /**
+     * Translated "Search results ({2} seconds): {1} found for {0}".
+     * 
+     * @return translated "Search results ({2} seconds): {1} found for {0}"
+     */
+    @DefaultMessage("Search results ({2} seconds): {1} found for {0}")
+    @Key("searchDataResultsHeader")
+    String searchDataResultsHeader(String searchText, int total, double seconds);
+
+    /**
      * Translated "Search for users".
-     *
+     * 
      * @return translated "Search for users"
      */
     @DefaultMessage("Search for users")
@@ -4287,8 +4369,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String userId();
 
     /**
+     * Translated "User Metadata".
+     * 
+     * @return translated "User Metadata"
+     */
+    @DefaultMessage("User Metadata")
+    @Key("userMetadata")
+    String userMetadata();
+
+    /**
      * Translated "User preference saved successfully.".
-     *
+     * 
      * @return translated "User preference saved successfully."
      */
     @DefaultMessage("User preference saved successfully.")
