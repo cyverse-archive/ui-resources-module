@@ -305,7 +305,7 @@ public interface IplantValidationMessages extends Messages {
     /**
      * Message provided when a user enters a value that is not a double precision value.
      * 
-     * @see org.iplantc.core.uiapps.widgets.client.view.editors.validation.EnvironmentVariableNameValidator
+     * @see org.iplantc.de.apps.widgets.client.view.editors.validation.EnvironmentVariableNameValidator
      * 
      * @return translated validation error message.
      */
