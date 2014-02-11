@@ -1,8 +1,8 @@
 package org.iplantc.de.resources.client.messages;
 
-import java.util.List;
-
 import org.iplantc.de.resources.client.uiapps.integration.AppIntegrationErrorMessages;
+
+import java.util.List;
 
 /**
  * Interface to represent the messages contained in resource bundle:

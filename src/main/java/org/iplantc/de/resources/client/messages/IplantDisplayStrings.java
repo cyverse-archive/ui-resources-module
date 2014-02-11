@@ -1,8 +1,8 @@
 package org.iplantc.de.resources.client.messages;
 
-import java.util.List;
-
 import com.google.gwt.safehtml.shared.SafeHtml;
+
+import java.util.List;
 
 /**
  * Interface to represent the messages contained in resource bundle:

@@ -3,13 +3,13 @@
  */
 package org.iplantc.de.resources.client;
 
+import org.iplantc.de.resources.client.uiapps.integration.AppIntegrationPaletteImages;
+import org.iplantc.de.resources.client.uiapps.widgets.ArgumentListEditorCss;
+
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.DataResource;
 import com.google.gwt.resources.client.ImageResource;
-
-import org.iplantc.de.resources.client.uiapps.integration.AppIntegrationPaletteImages;
-import org.iplantc.de.resources.client.uiapps.widgets.ArgumentListEditorCss;
 
 /**
  * @author sriram
