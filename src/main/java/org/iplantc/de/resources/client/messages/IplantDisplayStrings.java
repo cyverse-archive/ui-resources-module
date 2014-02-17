@@ -520,13 +520,22 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String categorize();
 
     /**
+     * Translated "Category".
+     * 
+     * @return translated "Category"
+     */
+    @DefaultMessage("Category")
+    @Key("category")
+    String category();
+
+    /**
      * Translated "Categories".
      *
      * @return translated "Categories"
      */
     @DefaultMessage("Categories")
-    @Key("category")
-    String category();
+    @Key("categories")
+    String categories();
 
     /**
      * Translated "Suggested display categories".
