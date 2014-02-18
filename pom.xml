@@ -9,7 +9,7 @@
 	<url>http://project.iplantcollaborative.org</url>
 	<!-- convenience to define GWT version in one place -->
 	<properties>
-		<gwt.module>org.iplantc.core.resources.ui-resources</gwt.module>
+		<gwt.module>org.iplantc.de.resources.ui-resources</gwt.module>
 		<!-- Target Java Version -->
 		<jdk.version>1.6</jdk.version>
 		<!-- Current GXT Version -->
@@ -81,7 +81,7 @@
 						<configuration>
 							<module>${gwt.module}</module>
 				<!-- These config options are only relevant if the i18n goal is executed. -->
-                            <i18nMessagesBundle>org.iplantc.core.resources.client.messages.test</i18nMessagesBundle>
+                            <i18nMessagesBundle>org.iplantc.de.resources.client.messages.test</i18nMessagesBundle>
 						</configuration>
 					</execution>
 				</executions>
