@@ -207,6 +207,14 @@ public interface IplantValidationMessages extends Messages {
      */
     String drNameValidationMsg();
 
+    /**
+     * Localized text for display as validation message.
+     * 
+     * This message is displayed when the Unix glob pattern for disk resource names is not valid.
+     * 
+     * @return a string representing the localized text.
+     */
+    String drGlobValidationMsg();
 
     /**
      * Validation message for numeric field
