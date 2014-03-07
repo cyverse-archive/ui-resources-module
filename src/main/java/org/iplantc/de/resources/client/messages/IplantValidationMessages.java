@@ -318,4 +318,13 @@ public interface IplantValidationMessages extends Messages {
      * @return translated validation error message.
      */
     String environmentVariableNameValidationMsg();
+
+    /**
+     * Translated "The new name cannot be same as the old name.".
+     * 
+     * @return translated "The new name cannot be same as the old name."
+     */
+    @DefaultMessage("The new name cannot be same as the old name.")
+    @Key("newNameSameAsOldName")
+    String newNameSameAsOldName();
 }
